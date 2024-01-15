@@ -133,6 +133,7 @@ nav > ul li a{
     width: 139px;
     height: 42px;
     margin-top: 20px;
+    margin-left: 0px;
     font-size: 16px;
     font-weight: 800;
     border: none;
@@ -193,6 +194,16 @@ nav > ul li a{
         display: block;
         width: 90%;
         margin: 20px auto;
+    }
+    .popular-tours-container{
+        flex-direction: column;
+        margin: 21px 18px;
+    }
+    .popular-tours-content > ul li{
+        margin-left: auto;
+    }
+    .popular-tours-content button{
+        margin-right: auto;
     }
 }
 
