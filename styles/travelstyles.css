@@ -101,3 +101,54 @@ nav > ul li a{
     color: #FFF;
 }
 
+
+@media screen and (max-width:600px) {
+    body{
+        margin: 18px 0px;
+    }
+    nav > ul{
+        display: none;
+    }
+    nav h3{
+        font-size: 18px;
+        /* font-weight: ; */
+    }
+    nav h3 > img{
+        width: 5rem;
+    }
+    .section-title{
+        width: 85px;
+    }
+    .banner-container{
+        width: 450px;
+        height: 435px;
+    }
+    .banner-title{
+        width: 210px;
+        font-size: 15px;
+        padding: 30px 0px 5px 80px;
+    }
+    .banner-description{
+        width: 270px;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 10px 0px 0px 80px;
+        padding: 0px;
+    }
+    .banner-form-content{
+        width: 258px;
+        height: 230px;
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 0.30);
+        margin: 38px auto 0px auto;
+        padding: 5px;
+    }
+    .banner-form-content .form-content input,select,button{
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
