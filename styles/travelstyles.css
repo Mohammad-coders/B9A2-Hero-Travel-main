@@ -4,7 +4,9 @@
     --primary-color: #FF5400;
     --secondary-color: #5A5A5D;
     --section-title-color: #131318;
-    --section-description-color: rgba(19, 19, 24, 0.70);;
+    --section-description-color: rgba(19, 19, 24, 0.70);
+    --primary-font: 400;
+    --primary-font-size: 13px;
 }
 *{
     margin: 0px;
@@ -100,7 +102,49 @@ nav > ul li a{
     background-color: var(--primary-color);
     color: #FFF;
 }
+.popular-tours-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.popular-tour-title{
+    width: 284px;
+    color: var(--section-title-color);
+    font-size: 32px;
+    font-weight: 800;
+}
+.popular-tour-description{
+    width: 460px;
+    color: var(--section-description-color);
+    margin-top: 20px;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font);
+}
+.popular-tours-content > ul li{
+    width: 420px;
+    color: var(--section-description-color);
+    margin-top: 20px;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font);
+}
+.popular-tours-content button{
+    background-color: var(--primary-color);
+    color: #FFF;
+    width: 139px;
+    height: 42px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+.popular-toures-img img{
+    width: 430px;
+    height: 440px;
+}
 
+
+/* small device responsiveness with media query */
 
 @media screen and (max-width:600px) {
     body{
