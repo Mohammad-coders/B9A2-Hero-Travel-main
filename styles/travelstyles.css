@@ -426,19 +426,26 @@ hr{
 
 /* small device responsiveness with media query */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
+    main,header,body{
+        margin: 0px;
+    }
     nav > ul{
         display: none;
     }
     nav > img{
         visibility: visible;
+        margin-top: 20px;
+        margin-right: 10px;
     }
     nav h3 {
         font-size: 18px;
+        margin-top: 20px;
+        margin-left: 10px;
     }
 
     nav h3>img {
-        width: 5rem;
+        width: 2rem;
     }
 
     .section-title {
@@ -451,8 +458,9 @@ hr{
     }
 
     .banner-title {
-        width: 210px;
-        font-size: 15px;
+        width: 280px;
+        font-size: 18px;
+        font-weight: 600;
         padding: 30px 0px 5px 80px;
     }
 
@@ -489,18 +497,20 @@ hr{
     }
 
     .popular-tours-content>ul li {
+        width: 300px;
         margin-left: 30px;
     }
 
     .popular-tours-content button {
         margin-right: auto;
     }
-
+    .popular-tour-description{
+        width: 350px;
+    }
     .choose-destination-title {
         width: 215px;
         margin: 80px auto 0px auto;
         font-size: 18px;
-        /* align-items: center; */
     }
 
     .choose-destination-description {
@@ -587,28 +597,33 @@ hr{
     .card img {
         width: 43px;
     }
-
     .newsletter-container {
         flex-direction: column;
         gap: 20px;
-        margin: 20px 20px;
+        margin: 20px;
     }
-
     .newsletter-img-container {
         position: relative;
     }
-
+    .newsletter-content{
+        width: fit-content;
+    }
     .newsletter-img-container img {
         width: 100%;
-
     }
-
     .discount-newsletter {
-        width: 192px;
+        width: 11.8rem;
         position: absolute;
         top: 55%;
-        left: 35%;
+        left: -auto;
     }
+    .discount-newsletter .title{
+        font-size: 14px;
+    }
+    .discount-newsletter .save-up{
+        font-size: 19px;
+    }
+    
     .footer-section{
         margin: 0px;
         width: 100%;
