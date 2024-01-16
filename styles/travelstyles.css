@@ -14,7 +14,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Mulish;
-    /* margin: 40px 100px; */
 }
 
 .primary-title {
@@ -428,10 +427,6 @@ hr{
 /* small device responsiveness with media query */
 
 @media screen and (max-width:600px) {
-    body {
-        /* margin: 18px 0px; */
-    }
-
     nav > ul{
         display: none;
     }
@@ -440,7 +435,6 @@ hr{
     }
     nav h3 {
         font-size: 18px;
-        /* font-weight: ; */
     }
 
     nav h3>img {
