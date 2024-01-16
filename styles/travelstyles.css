@@ -633,4 +633,8 @@ hr{
         font-size: 18px;
         padding-top: 15px;
     }
+    .footer-section h3 img{
+        width: 2rem;
+        margin-right: 5px;
+    }
 }
