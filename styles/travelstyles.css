@@ -607,6 +607,8 @@ hr{
     }
     .newsletter-content{
         width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
     }
     .newsletter-img-container img {
         width: 100%;
