@@ -270,7 +270,7 @@ button {
     margin-bottom: 0px;
 }
 .card-title{
-    width: var(--section-title-color);
+    color: var(--section-title-color);
     font-size: 20px;
     font-weight: 800;
     margin-top: 25.6px;
@@ -278,6 +278,7 @@ button {
 .card-description{
     width: 388.8px;
     color: var(--secondary-color);
+    margin-top: 20px;
     font-size: 13px;
     font-weight: 400;
 }
@@ -406,4 +407,31 @@ button {
     .Bandarban{
         width: 100%;
     }
+    .choose-destination-title{
+        width: 100%;
+        text-align: center;
+    }
+    .choose-destination-description{
+        width: 17rem;
+        font-size: 10px;
+        text-align: center;
+    }
+    .card{
+        width: 18rem;
+        padding: 10px;
+    }
+    .card-content{
+        grid-template-columns: 1fr;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-description{
+        width: 240px;
+        font-size: 11px;
+    }
+    .card img{
+        width: 43px;
+    }
+
 }
