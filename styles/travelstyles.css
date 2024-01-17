@@ -129,7 +129,7 @@ button {
     padding: 5px;
 }
 
-.banner-form-content button {
+.banner-form-content button{
     background-color: var(--primary-color);
     color: #FFF;
 }
@@ -331,6 +331,15 @@ button {
     outline: none;
     padding: 10px;
     background-color: rgba(19, 19, 24, 0.05);
+}
+.btn-booking{
+    /* background-color: var(--primary-color); */
+    color: white;
+    background: #FF5400;
+    font: 13px;
+    font-weight: 700;
+    /* padding: 10px; */
+    cursor: pointer;
 }
 
 .image-booking-content img {
@@ -681,7 +690,10 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .btn-booking{
+        width: 100px;
+        height: 50px;
+    }
     .image-booking-content img {
         margin-top: 20px;
         border-radius: 10px;
